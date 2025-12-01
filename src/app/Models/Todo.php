@@ -12,6 +12,6 @@ class Todo extends Model
 
 public function category()
 {
-    return $this->belongsTo(category::class);
+    return $this->belongsTo(Category::class);
 }
 }
