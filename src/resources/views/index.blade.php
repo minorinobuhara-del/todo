@@ -32,11 +32,22 @@
     <div class="create-form__item">
       <input class="create-form__item-input" type="text" name="content" value="{{ old('content') }}"/>
       <select class="create-form__item-select">
-        <option value="">カテゴリー</option>
+        <option value="">カテゴリ</option>
       </select>
     </div>
     <div class="create-form__button">
       <button class="create-form__button-submit" type="submit">作成</button>
+    </div>
+  </form>
+  <div class="section__title">
+    <h2>Todo検索</h2>
+  </div>
+  <form class="search-form">
+    <div class="search-form__item">
+      <input class="search-form__item-input" type="text"/>
+      <select class="search-form__item-select">
+        <option value="">カテゴリ</option>
+      </select>
     </div>
     <div class="search-form__button">
       <button class="search-form__button-submit" type="submit">検索</button>

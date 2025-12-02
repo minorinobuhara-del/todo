@@ -36,7 +36,8 @@
     text-align: center;
 }
 
-.create-form__item {
+.create-form__item, .search-form__item{
+    display:flex;
     width: 70%;
 }
 
